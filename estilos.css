@@ -1,0 +1,59 @@
+
+*{
+    margin:0;
+    padding:0;;
+    box-sizing:border-box;
+}
+/*desplegable del icono*/
+#btn-menu{
+    display:none;
+}
+header label{
+    display: block;
+    width:30px;
+    height: 30px;
+    padding: 10px;
+}
+header label:hover{
+    cursor:pointer;
+    background: rgba(0, 0,0,0.3);
+}
+.menu{
+    display:block;
+    padding:15px 30px;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+header{
+    width:98%;
+    height: 40px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+
+}
+h1{
+    float:left;
+}
+
+#menu-bar{
+    display:none;
+}
+header label{
+    float:right;
+    font-size: 28px;
+    margin:6px;
+}
+.menu{
+    display:none;
+}
+
